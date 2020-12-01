@@ -1,2 +1,2 @@
 # Jeopardy
-Little Test for kids to motivate them to study and make learning process engaging.
+Little Test for 9 grade kids to motivate them to study history of Kazakhstan and make learning process engaging.
