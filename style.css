@@ -1,0 +1,114 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+.mainbg
+{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("img/mainbg.jpg");
+    /* height: 1000px; */
+    height: 950px;;
+    z-index: -1;
+}
+.logo
+{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("img/mainlogo.png");
+    margin: 50px auto;
+    width: 23%;
+    height: 60%;
+    position: absolute;
+    left: 39%;
+    top: 0;
+}
+.ground
+{
+    position: absolute;
+    left: 10%;
+    top: 0%;
+    width: 80%;
+    height: 500px;
+    /* border:1px solid black; */
+}
+.btn
+{
+    float: left;
+    width: 20%;
+    margin-left: 4%;
+    margin-top: 25px;
+    height: 170px;
+    background-color: #613B6A;
+    border-radius: 15%;
+    color: white;
+    text-align: center;
+    line-height: 170px;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.quesbar
+{
+    position: relative;
+    top: 10%;
+    left:25%;
+    width: 50%;
+    height: 400px;
+    background-color: #613B6A;
+    border-radius: 15%;    
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 40px;
+    text-align: center;
+    overflow: auto;
+}
+.var{
+    margin-left: 10%;
+    margin-top: 20px;
+    position: relative;
+    top: 120px;
+    width: 36%;
+    height: 70px;
+    background-color: #613B6A;
+    color: white; 
+    display: inline-block;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 20%;
+    border: 5px solid #66BDCC;
+}
+.overlay
+{
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height:960px;
+    z-index: 5;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+}
+.backover
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -4;
+    /* background-color: black; */
+}
+#con
+{
+    /* z-index: 5;  */
+    width: 100px;
+    height: 50px;
+    background-color: #613B6A;
+    color: white;
+    border: 5px solid #66BDCC;
+    border-radius: 5px;
+    position: relative;
+    top: 200px;
+    left: 1000px;
+    line-height: 50px;
+    text-align: center;
+}
